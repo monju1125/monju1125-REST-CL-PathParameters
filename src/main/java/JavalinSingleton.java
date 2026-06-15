@@ -18,6 +18,7 @@ public class JavalinSingleton {
 
         app.get("/firstname/{first}", ctx -> {
             
+            ctx.result("first");
             //write code here
 
         });
