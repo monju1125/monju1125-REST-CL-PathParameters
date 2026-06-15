@@ -18,7 +18,7 @@ public class JavalinSingleton {
 
         app.get("/firstname/{first}", ctx -> {
             
-            ctx.result("first");
+           String firstname = ctx.pathParam("first");
             //write code here
 
         });
